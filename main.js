@@ -20,7 +20,7 @@ let day = +prompt("Введите день недели");
 if (day > 0 && day < 6) {
     console.log("Невезуха, у тебя рабочий день");
 } else if  (day > 5 && day <= 7) {
-    console.log("Ура, выходней день");
+    console.log("Ура, выходной день!");
 } else {
     console.log("Не существует такого дня недели");
 }
